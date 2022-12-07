@@ -7,7 +7,7 @@ function UserList(props) {
   const cartas = props.cartas;
 
   return (
-    <div class="container">
+    <div className="container">
       {cartas.map((carta) => {
         return(<UserCard key={carta.id} carta={carta}/>)
       })}

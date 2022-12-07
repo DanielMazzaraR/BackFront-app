@@ -2,15 +2,15 @@ import "./UserCardStyle.css";
 
 function UserCard(props) {
   return (
-    <div class="card">
-      <div class="box">
-        <div class="content">
+    <div className="card">
+      <div className="box">
+        <div className="content">
           <h2>ID: {props.carta.id}</h2>
           <h3>
             {props.carta.firstName} {props.carta.lastName}
           </h3>
           <p>
-            Email: {props.carta.email}
+            Email: {props.carta.email} <br/>
             Phone Number: {props.carta.phoneNumber}
           </p>
         </div>
